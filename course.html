@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="maincs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <!---------------------------------Section 1 for header----------------------------------->
+  <section class="sub-header">
+    <nav>
+      <a href="main.html"><img src="logo.png"></a>
+      <div class="nav-link">
+        <i class="fa fa-bars" id="navlinks"></i>
+        <i class="fa fa-times" onclick="showmenu()"></i>
+          <ul>
+            <li><a href="main.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+      </div>
+    </nav>
+
+<h1>Our Courses</h1>
+  </section>
+<!-- ----------our cources ---------- -->
+
+<section class="course">
+    <h1>COURSES WE OFFERED</h1>
+    <P>Students persuing degree from abeda inamdar</P>
+    <div class="row">
+      <div class="course-col">
+        <h3>Intermidiate</h3>
+        <p>In essence, coaching classes—whether for academic or professional purposes—play <br>a pivotal role in empowering individuals with personalized strategies, sustained support, and actionable insights. They go beyond rote learning, focusing on developing lifelong skills and fostering personal growth.</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>In essence, coaching classes—whether for academic or professional purposes—play <br>a pivotal role in empowering individuals with personalized strategies, sustained support, and actionable insights. They go beyond rote learning, focusing on developing lifelong skills and fostering personal growth.</p>
+      </div>
+      <div class="course-col">
+        <h3>Post graduation</h3>
+        <p>In essence, coaching classes—whether for academic or professional purposes—play <br>a pivotal role in empowering individuals with personalized strategies, sustained support, and actionable insights. They go beyond rote learning, focusing on developing lifelong skills and fostering personal growth.</p>
+      </div>
+    </div>
+  </section>
+
+  <!---------------------facilities------------>
+  <section class="facilities">
+    <h1>FACILITIES</h1>
+    <p>In essence, coaching classes—whether</p>
+    <div class="row">
+      <div class="facility-col">
+        <img src="library.png">
+        <h3>WORLD CLASS LIBRARY</h3>
+        <p>In essence, coaching classes—whether for</p>
+      </div>
+      <div class="facility-col">
+        <img src="basketball.png">
+        <h3>LARGEST PLAY GROUND</h3>
+        <p>In essence, coaching classes—whether for</p>
+      </div>
+      <div class="facility-col">
+        <img src="cafeteria.png">
+        <h3>TASTY AND HEALTY FOOD</h3>
+        <p>In essence, coaching classes—whether for</p>
+      </div>
+    </div>
+  </section>
+<!-- ----------footer---------- -->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>enroll for our various online cources <br>anywhere from the world</p>
+  <div class="icon">
+     <i class="fa fa-facebook-official"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fa fa-linkedin"></i>
+  </div>
+</section>
+
+  <!----------------java script toggle-------------->
+  <script>
+
+    var  navlinks=document.getElementById("navlinks");
+    function showmenu(){
+      navlinks.style.right="0";
+    }
+     function hidemenu(){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>

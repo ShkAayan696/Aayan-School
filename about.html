@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link href="maincs.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" rel="stylesheet">
+</head>
+<body>
+  <!---------------------------------Section 1 for header----------------------------------->
+  <section class="sub-header">
+    <nav>
+      <a href="main.html"><img src="logo.png"></a>
+      <div class="nav-link">
+        <i class="fa fa-bars" id="navlinks"></i>
+        <i class="fa fa-times" onclick="showmenu()"></i>
+          <ul>
+            <li><a href="main.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+      </div>
+    </nav>
+
+<h1>About us</h1>
+  </section>
+<!-- ----------About us content ---------- -->
+
+<section class="Aboutus">
+  <div class="about-col">
+    <h1>we are the worlds largest university</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, <br>culpa nemo et dolore facilis iure perspiciatis quod vel consequuntur odit, recusandae voluptatum magni <br>ad labore deleniti. Non iste harum quasi libero, temporibus similique itaque tempora mollitia, inventore a voluptate ratione nulla enim quae ea rem, <br>nihil odit at illo nemo?</p>
+      <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+   
+    <div class="about-col">
+      <img src="about.jpg">
+    </div>
+ </div>
+</section>
+<!-- ----------footer---------- -->
+
+<section class="footer">
+  <h4>About us</h4>
+  <p>enroll for our various online cources <br>anywhere from the world</p>
+  <div class="icon">
+     <i class="fa fa-facebook-official"></i>
+     <i class="fa fa-instagram"></i>
+     <i class="fa fa-twitter"></i>
+     <i class="fa fa-linkedin"></i>
+  </div>
+</section>
+
+  <!----------------java script toggle-------------->
+  <script>
+
+    var  navlinks=document.getElementById("navlinks");
+    function showmenu(){
+      navlinks.style.right="0";
+    }
+     function hidemenu(){
+      navlinks.style.right="-200px";
+    }
+  </script>
+</body>
